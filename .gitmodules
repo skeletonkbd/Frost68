@@ -1,0 +1,6 @@
+[submodule "PCB/lib/Keebio-Parts.pretty"]
+	path = PCB/lib/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "PCB/lib/MX_V2"]
+	path = PCB/lib/MX_V2
+	url = https://github.com/ai03-2725/MX_V2.git
