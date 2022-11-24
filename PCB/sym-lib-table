@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "MCU_RaspberryPi")(type "KiCad")(uri "${KIPRJMOD}/lib/rp2040/MCU_RaspberryPi.kicad_sym")(options "")(descr ""))
+  (lib (name "SkeletonKBD")(type "KiCad")(uri "${KIPRJMOD}/lib/SkeletonKBD/SkeletonKBD.kicad_sym")(options "")(descr ""))
+)
