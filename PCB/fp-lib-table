@@ -2,4 +2,5 @@
   (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/lib/Keebio-Parts.pretty")(options "")(descr ""))
   (lib (name "MX_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/lib/MX_V2/MX_Hotswap.pretty")(options "")(descr ""))
   (lib (name "SkeletonKBD")(type "KiCad")(uri "${KIPRJMOD}/lib/SkeletonKBD/SkeletonKBD.pretty")(options "")(descr ""))
+  (lib (name "CustomKey")(type "KiCad")(uri "${KIPRJMOD}/lib/CustomKey.pretty")(options "")(descr ""))
 )
