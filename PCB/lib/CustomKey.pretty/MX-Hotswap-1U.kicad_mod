@@ -44,4 +44,9 @@
   (pad "" np_thru_hole circle (at 5.08 0 311.901) (size 1.7018 1.7018) (drill 1.7018) (layers F&B.Cu *.Mask) (tstamp e6ac733e-4ed5-46cf-88b0-dd1968d715a9))
   (pad "1" smd roundrect (at 7.085 -2.54) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08) (tstamp ac698377-e89a-4c09-a04f-c36330bdeb1b))
   (pad "2" smd roundrect (at -5.842 -5.08) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.08) (tstamp f2f92a63-b68d-4b69-a547-37c938bc0ec2))
+  (model "${KIPRJMOD}/lib/3D/kailh-hotswap-mx-1.snapshot.11/Kailh Hotswap MX/Kailh Hotswap MX v22.step"
+    (offset (xyz 0.6 4.8 1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 180))
+  )
 )

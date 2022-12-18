@@ -25,4 +25,9 @@
   (pad "2" smd rect (at 0.425 0.65) (size 0.42 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 44b29533-eda4-415f-8a33-f21b6794e700))
   (pad "3" smd rect (at -0.425 0.65) (size 0.42 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 995b8209-2dd6-4c70-b51a-b941a587db77))
   (pad "4" smd rect (at -1.275 0.65) (size 0.42 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d23e30f8-8513-420b-a66f-199d17d25ce3))
+  (model "${KIPRJMOD}/lib/3D/User Library-WS2812-4020.IGS"
+    (offset (xyz 0 -1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
 )
