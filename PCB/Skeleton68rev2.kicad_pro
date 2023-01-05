@@ -55,13 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "invalid_outline|18959854|16134446|c2eaef4b-67bb-42e0-9696-02a3e6342419|a8ff3cd2-4699-463b-a357-76114f2d6747",
-        "invalid_outline|358056446|137056446|001f2ed4-2ea2-44b0-9103-41e7299d65bd|4fbfb104-accc-4835-87ff-ce3fc4f712ce",
-        "invalid_outline|365056446|16134446|dc0e8ee3-a89a-4a06-88de-3ae3b99e9958|4e86170a-9b4c-4fb1-9a7e-6a8b27b4d2fb",
-        "silk_over_copper|164380000|16134449|52eb383e-c04d-4637-b1d3-be812bfe6e3f|87662969-179f-4040-98ad-26ee79de49d1",
-        "silk_over_copper|173780000|16134449|52eb383e-c04d-4637-b1d3-be812bfe6e3f|200de568-d4cb-47ea-8cb1-91a099366dca"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -409,7 +403,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "Skeleton68rev2.dsn",
       "step": "Skeleton68rev2.step",
       "vrml": "Skeleton68rev2.wrl"
     },

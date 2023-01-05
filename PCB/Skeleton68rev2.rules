@@ -1,0 +1,116 @@
+
+(rules PCB Skeleton68rev2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 313)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 100.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 25.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-v" "Via[0-1]_800:400_um" v
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    v "Via[0-1]_800:400_um-v"
+  )
+  (class default
+    "XTAL_IN" "/XTAL_O" row0 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)"
+    "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)"
+    "Net-(D14-Pad2)" "Net-(D15-Pad2)" row1 "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)"
+    "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D27-Pad2)" "Net-(D28-Pad2)"
+    "Net-(D29-Pad2)" "Net-(D30-Pad2)" row2 "Net-(D31-Pad2)" "Net-(D32-Pad2)" "Net-(D33-Pad2)" "Net-(D34-Pad2)" "Net-(D35-Pad2)"
+    "Net-(D36-Pad2)" "Net-(D37-Pad2)" "Net-(D38-Pad2)" "Net-(D39-Pad2)" "Net-(D40-Pad2)" "Net-(D41-Pad2)" "Net-(D42-Pad2)" "Net-(D43-Pad2)"
+    "Net-(D44-Pad2)" row3 "Net-(D45-Pad2)" "Net-(D46-Pad2)" "Net-(D47-Pad2)" "Net-(D48-Pad2)" "Net-(D49-Pad2)" "Net-(D50-Pad2)"
+    "Net-(D51-Pad2)" "Net-(D52-Pad2)" "Net-(D53-Pad2)" "Net-(D54-Pad2)" "Net-(D55-Pad2)" "Net-(D56-Pad2)" "Net-(D57-Pad2)" "Net-(D58-Pad2)"
+    row4 "Net-(D59-Pad2)" "Net-(D60-Pad2)" "Net-(D61-Pad2)" "Net-(D62-Pad2)" "Net-(D63-Pad2)" "Net-(D64-Pad2)" "Net-(D65-Pad2)"
+    "Net-(D66-Pad2)" "Net-(D67-Pad2)" "Net-(D68-Pad2)" /CC1 "D_USB_P" "D_USB_N" "unconnected-(J1-PadA8)" /CC2
+    "unconnected-(J1-PadB8)" "Net-(LED1-Pad2)" led "Net-(LED2-Pad2)" "Net-(LED3-Pad2)" "Net-(LED4-Pad2)" "Net-(LED5-Pad2)" "/~{USB_BOOT}"
+    CS ~{RESET} "D_P" "/D_+" "D_N" "/D_-" "XTAL_OUT" col0
+    col1 col2 col3 col4 col5 col6 col7 col8
+    col9 col10 col11 col12 col13 col15 col14 SD1
+    SD2 SD0 "QSPI_CLK" SD3 "unconnected-(U3-Pad24)" "unconnected-(U3-Pad25)" "unconnected-(U3-Pad17)" "unconnected-(U3-Pad18)"
+    "unconnected-(U3-Pad27)" "unconnected-(U3-Pad28)" "Net-(LED6-Pad2)" "unconnected-(U3-Pad3)" "unconnected-(U3-Pad4)" "unconnected-(U3-Pad9)" "unconnected-(U3-Pad11)" "Net-(LED7-Pad2)"
+    "Net-(LED8-Pad2)" "Net-(LED10-Pad4)" "Net-(LED10-Pad2)" "Net-(LED11-Pad2)" "Net-(LED12-Pad2)" "Net-(LED13-Pad2)" "Net-(LED14-Pad2)" "Net-(LED15-Pad2)"
+    "Net-(LED16-Pad2)" "Net-(LED17-Pad2)" "Net-(LED18-Pad2)" "Net-(LED19-Pad2)" "Net-(LED20-Pad2)" "Net-(LED21-Pad2)" "Net-(LED22-Pad2)" "Net-(LED23-Pad2)"
+    "Net-(LED24-Pad2)" "Net-(LED25-Pad2)" "Net-(LED26-Pad2)" "Net-(LED27-Pad2)" "Net-(LED28-Pad2)" "Net-(LED29-Pad2)" "Net-(LED30-Pad2)" "Net-(LED31-Pad2)"
+    "Net-(LED32-Pad2)" "Net-(LED33-Pad2)" "Net-(LED34-Pad2)" "Net-(LED35-Pad2)" "Net-(LED36-Pad2)" "Net-(LED37-Pad2)" "Net-(LED38-Pad2)" "Net-(LED39-Pad2)"
+    "Net-(LED40-Pad2)" "Net-(LED41-Pad2)" "Net-(LED42-Pad2)" "Net-(LED43-Pad2)" "Net-(LED44-Pad2)" "Net-(LED45-Pad2)" "Net-(LED46-Pad2)" "Net-(LED47-Pad2)"
+    "Net-(LED48-Pad2)" "Net-(LED49-Pad2)" "Net-(LED50-Pad2)" "Net-(LED51-Pad2)" "Net-(LED52-Pad2)" "Net-(LED53-Pad2)" "Net-(LED54-Pad2)" "Net-(LED55-Pad2)"
+    "Net-(LED56-Pad2)" "Net-(LED57-Pad2)" "Net-(LED58-Pad2)" "Net-(LED59-Pad2)" "Net-(LED60-Pad2)" "Net-(LED61-Pad2)" "Net-(LED62-Pad2)" "Net-(LED63-Pad2)"
+    "Net-(LED64-Pad2)" "Net-(LED65-Pad2)" "Net-(LED66-Pad2)" "Net-(LED67-Pad2)" "unconnected-(LED68-Pad2)" rgb
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class v
+    +3V3 GND +1V1 +5V VBUS
+    (clearance_class v)
+    (via_rule v)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
