@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Panelization")(type "KiCad")(uri "D:/SkeletonKBD/Keyboards/Skeleton68rev2/PCB/lib/Panelization.pretty")(options "")(descr ""))
+  (lib (name "mousebites")(type "KiCad")(uri "${KIPRJMOD}/mousebites.pretty")(options "")(descr ""))
+)

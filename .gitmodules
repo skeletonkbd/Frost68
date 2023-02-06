@@ -7,3 +7,6 @@
 [submodule "PCB/lib/keebio-components"]
 	path = PCB/lib/keebio-components
 	url = https://github.com/keebio/keebio-components.git
+[submodule "PCB/Panelization.pretty"]
+	path = PCB/lib/Panelization.pretty
+	url = https://github.com/madworm/Panelization.pretty.git
