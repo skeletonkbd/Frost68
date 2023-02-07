@@ -1,5 +1,7 @@
 # Frost68
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 アクリル積層ケースを使った Alice 配列のキーボードです。（開発時名称: Skeleton68rev2）
 
 ![IMG_3424](https://user-images.githubusercontent.com/90203406/216958773-0653d7bc-d89c-4506-99f1-0bd3700899c5.jpg)
