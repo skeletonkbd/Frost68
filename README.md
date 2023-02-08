@@ -4,6 +4,8 @@
 
 アクリル積層ケースを使った Alice 配列のキーボードです。（開発時名称: Skeleton68rev2）
 
+Firmware: https://github.com/skeletonkbd/qmk_firmware/tree/Frost68/keyboards/skeletonkbd/frost68
+
 ![IMG_3424](https://user-images.githubusercontent.com/90203406/216958773-0653d7bc-d89c-4506-99f1-0bd3700899c5.jpg)
 
 ![IMG_3424_2](https://user-images.githubusercontent.com/90203406/216958850-84c6d477-156e-4ae9-9b17-0234d1d77a97.jpg)
